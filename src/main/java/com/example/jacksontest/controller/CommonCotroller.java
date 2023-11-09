@@ -16,10 +16,6 @@ public class CommonCotroller {
 
         System.out.println(commonRequestDto.getOrderId());
         System.out.println(commonRequestDto.getPrductName());
-        System.out.println(commonRequestDto.getRequestCurrency());
-        System.out.println(commonRequestDto.getRequestAmount());
-        System.out.println(commonRequestDto.getRedirectUrl());
-        System.out.println(commonRequestDto.getCustomerId());
         System.out.println(commonRequestDto.getCustomerNum());
 
         return commonResponseDto;
